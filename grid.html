@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #leftsidebar{
+            float:none;
+            width:auto;
+        }
+        #main{
+            margin-left:4px;
+        }
+        #menulist{margin:30px; padding:0px;}
+
+        .menuitem{
+            background-color: cyan;
+            border: 1px solid gray;
+            margin: 4px;
+            padding: 2px;
+        }
+    @media only screen and (min-width:500px) {
+    #leftsidebar{
+        width: 200px; 
+        float: left;
+    }
+    #main{
+        margin-left: 216px;
+    }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="leftsidebar">
+            <ul id="menulist">
+                <li class="menuitem">Menu Item 1</li>
+                <li class="menuitem">Menu Item 2</li>
+                <li class="menuitem">Menu Item 3</li>
+                <li class="menuitem">Menu Item 4</li>
+                <li class="menuitem">Menu Item 5</li>
+            </ul>
+        </div>
+        <div id="main">
+            <h1>Resize the browser window to see the effect!</h1>
+            <p> My text My text My text</p>
+        </div>
+    </div>
+</body>
+</html>
